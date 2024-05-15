@@ -14,8 +14,6 @@ class ToDoSchema(BaseModel):
                 "user_id": 1
             }
         }
-
-# Classe para representar os usuários do sistema
 class UserSchema(BaseModel):
     #id : int = Field(default=None, gt=0)
     email : EmailStr = Field(default=None)
